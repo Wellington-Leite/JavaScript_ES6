@@ -1,15 +1,15 @@
 # JavaScript_ES6
 ES6 Básico
 
-###Passos:
-yarn init
+#### Passos:
+``$ yarn init``
 
-Install babel/cli
-yarn add @babel/cli
+#### Instalando babel/cli
+``$ yarn add @babel/cli``
 
-Install babel/preset-env
-yarn add @babel/preset-env
-yarn add @babel/core
+#### Instalando babel/preset-env
+``$ yarn add @babel/preset-env
+$ yarn add @babel/core``
 
 
 

@@ -1,6 +1,6 @@
 # JavaScript_ES6 Rocketseat
-ES6 Básico
-Babel é o responsável por gerar automanticamente o arquivo bundle.js, qual os navegadores são capazes de interpretar e executar.
+##### ES6 Básico</br>
+O Babel é o responsável por gerar automanticamente o arquivo bundle.js, qual os navegadores são capazes de interpretar e executar.
 Basicamente o Babel converte as classes entre outras funções que os navegadores ainda não são capazes executar em código JS compátivel.
 
 #### Passos:

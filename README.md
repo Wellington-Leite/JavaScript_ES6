@@ -14,7 +14,7 @@ ES6 Básico
 ``$ yarn add @babel/preset-env``</br>``
 $ yarn add @babel/core``
 
-#### Instalando 
+#### Instalando plugin-proposal
 ``$ yarn add @babel/plugin-proposal-object-rest-spread``
 
 

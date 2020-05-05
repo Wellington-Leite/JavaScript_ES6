@@ -1,4 +1,4 @@
-# JavaScript_ES6
+# JavaScript_ES6 Rocketseat
 ES6 Básico
 
 #### Passos:
@@ -14,5 +14,7 @@ ES6 Básico
 ``$ yarn add @babel/preset-env``</br>``
 $ yarn add @babel/core``
 
+#### Instalando 
+``$ yarn add @babel/plugin-proposal-object-rest-spread``
 
 

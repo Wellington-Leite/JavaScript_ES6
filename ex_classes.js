@@ -1,5 +1,3 @@
-//Colar cada exemplo aqui...
-
 /* Classes */
 class TodoList {
     constructor(){

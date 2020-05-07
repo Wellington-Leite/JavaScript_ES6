@@ -1,24 +1,30 @@
 //Colar cada exemplo aqui...
 
-/* Classes */
-class TodoList {
+class Usuario {    
+    constructor(email, senha){
+        this.email = email;
+        this.senha = senha;
+    }
+
+    isAdmin(){
+        if(this.admin == true){
+            return 'Administrador';
+        }
+        return 'Usuario';
+    }
+}
+
+class Admin extends Usuario{
     constructor(){
-        this.todos = [];
+        super();
+        this.admin = true;
     }
 
-    addTodo(){
-        this.todos.push('Novo todo');
-        console.log(this.todos);
-    }
 }
 
-const MinhaLista = new TodoList();
+const User1 = new Usuario('emai@teste.com', '123');
+const Admin1 = new Admin('emai@teste.com', '123');
 
-document.getElementById('novotodo').onclick = function(){
-    MinhaLista.addTodo();
-}
+console.log(User1.isAdmin());
+console.log(Admin1.isAdmin());
 
-/* Mutação dentro de uma constante */
-const usuario = { nome: "Wellington"};
-usuario.nome = "Jose";
-console.log(usuario);

@@ -19,4 +19,18 @@ $ yarn add @babel/core``
 #### Instalando plugin-proposal
 ``$ yarn add @babel/plugin-proposal-object-rest-spread``
 
+#### Instalando Webpack - importar e exportar arquivos
+``$ yarn add webpack webpack-cli -D``
+
+#### Criar o arquivo de configuração webpack.config.js em seguida instalar o babel-loader
+``$ yarn add babel-loader -D``
+
+#### Apos as alterações na estrutura instalar webpack-server (Trabalhar com App Offline)
+``$ yarn add webpack-dev-server -D``
+
+``yarn add @babel/polyfill -D``
+
+``yarn add axios``
+
+
 
